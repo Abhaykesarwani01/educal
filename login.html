@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script
+      src="https://kit.fontawesome.com/64d58efce2.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="Assets/css/login.css">
+    <title>Sign in & Sign up Form</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="forms-container">
+        <div class="signin-signup">
+
+          <form action="/login"  method="post" id="sign-in-form" name="sign-in-form">
+            <h2 class="title">Sign in</h2>
+
+            <div class="input-field">
+              <i class="fas fa-user"></i>
+              <input type="email" onchange="checkemail2()" name="email" placeholder="Email" id="valemail1" required/>
+              <img id="check_email2" src="Assets/images/login/check.svg" alt="">
+              <img id="cross_email2" src="Assets/images/login/cross.png" alt="">
+            </div>
+            <div class="input-field">
+              <i class="fas fa-lock"></i>
+              <input type="password" onchange="checkpass2()" placeholder="Password" name="password" required/>
+              <img id="check_pass2" src="Assets/images/login/check.svg" alt="">
+              <img id="cross_pass2" src="Assets/images/login/cross.png" alt="">
+            </div>
+            <input type="submit" value="Login" class="btn solid" />
+            <p class="social-text">Or Sign in with social platforms</p>
+            <div class="social-media">
+              <a href="https://www.facebook.com/" class="social-icon">
+                <i class="fab fa-facebook-f"></i>
+              </a>
+              <a href="https://www.twitter.com/" class="social-icon">
+                <i class="fab fa-twitter"></i>
+              </a>
+              <a href="https://www.google.com/" class="social-icon">
+                <i class="fab fa-google"></i>
+              </a>
+              <a href="https://www.linkedin.com/" class="social-icon">
+                <i class="fab fa-linkedin-in"></i>
+              </a>
+            </div>
+          </form>
+          
+          <form action="/register" method="post" id="sign-up-form" name="sign-up-form">
+            <h2 class="title">Sign up</h2>
+
+            <div class="input-field">
+              <i class="fas fa-user"></i>
+              <input type="text" onchange="checkuser()" placeholder="Username" name="username" value="" required />
+              <img id="check_user" src="Assets/images/login/check.svg" alt="">
+              <img id="cross_user" src="Assets/images/login/cross.png" alt="">
+            </div>
+            <div class="input-field">
+              <i class="fas fa-envelope"></i>
+              <input type="email" onchange="checkemail()" placeholder="Email" name="email" value="" id="valemail" required />
+              <img id="check_email" src="Assets/images/login/check.svg" alt="">
+              <img id="cross_email" src="Assets/images/login/cross.png" alt="">
+            </div>
+            <div class="input-field">
+              <i class="fas fa-lock"></i>
+              <input type="password" onchange="checkpass()" placeholder="Password" name="password" value="" required />
+              <img id="check_pass" src="Assets/images/login/check.svg" alt="">
+              <img id="cross_pass" src="Assets/images/login/cross.png" alt="">
+            </div>
+            <div class="input-field">
+                <i class="fas fa-lock"></i>
+                <input type="password" onchange="checkcpass()" placeholder="Confirm Password" name="cpassword" value="" required/>
+                <img id="check_cpass" src="Assets/images/login/check.svg" alt="">
+              <img id="cross_cpass" src="Assets/images/login/cross.png" alt="">
+              </div>
+            <input type="submit" class="btn" value="Sign up" />
+            <p class="social-text">Or Sign up with social platforms</p>
+            <div class="social-media">
+              <a href="https://www.facebook.com/" class="social-icon">
+                <i class="fab fa-facebook-f"></i>
+              </a>
+              <a href="https://www.twitter.com/" class="social-icon">
+                <i class="fab fa-twitter"></i>
+              </a>
+              <a href="https://www.google.com/" class="social-icon">
+                <i class="fab fa-google"></i>
+              </a>
+              <a href="https://www.linkedin.com/" class="social-icon">
+                <i class="fab fa-linkedin-in"></i>
+              </a>
+            </div>
+          </form>
+        </div>
+      </div>
+
+      <div class="panels-container">
+        <div class="panel left-panel">
+          <div class="content">
+            <h3>Don't have any account ?</h3>
+            <p>
+              If you have not created any of your account then first Sign up !
+            </p>
+            <button class="transparent" id="sign-up-btn">
+              Sign up
+            </button>
+          </div>
+          <img src="Assets/images/login/log.svg" class="image" alt="" />
+        </div>
+        <div class="panel right-panel">
+          <div class="content">
+            <h3>Email already exists ?</h3>
+            <p>
+              If you have already created any of your account then please Sign in first !
+            </p>
+            <button class="transparent" id="sign-in-btn">
+              Sign in
+            </button>
+          </div>
+          <img src="Assets/images/login/register.svg" class="image" alt="" />
+        </div>
+      </div>
+    </div>
+  </body>
+  <script src="Assets/script/login.js"></script>
+</html>

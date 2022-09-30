@@ -1,0 +1,1075 @@
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+/* update_2 */
+html{
+    scroll-behavior: smooth;
+}
+h2{
+    margin-top: 0px;
+    margin-bottom: 18px;
+    color: #0b0b2c;
+    font-size: 40px;
+    font-family:'Plus Jakarta Sans', sans-serif;
+    line-height: 1.2em;
+    font-weight: 600;
+    letter-spacing: 0.01em;
+}
+h3{
+    color: #0b0b2c;
+    font-size: 25px;
+    line-height: 1.36em;
+    font-family:'Plus Jakarta Sans', sans-serif;
+    font-weight: 600;
+    letter-spacing: 0.01em;
+}
+p{
+    color: #69697b;
+    font-family:'Plus Jakarta Sans', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 1.667em;
+    color: #69697b;
+}
+span{
+    color: #2c23d2;
+    font-family:'Plus Jakarta Sans', sans-serif;
+}
+.divider{
+    align-self: center;
+    margin-left: 10%;
+    width: 80%;
+    height: 1px;
+    background-color: #cfcfdb;
+}
+
+.btn1{
+    position: absolute;
+    border: none;
+    border-radius: 4px;
+    background-color: #3434ff;
+    color: #ffffff;
+    padding: 22px 32px;
+    font-size: 18px;
+    line-height: 20px;
+    
+}
+.btn1:hover{
+    background-color: #2c23d2;
+    cursor: pointer;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.btn2{
+    position: absolute;
+    left:240px ;
+    border-color:#3434ff;
+    color: #3434ff;
+    border-radius: 4px;
+    border-width: 1px;
+    padding: 21px 32px;
+    font-size: 18px;
+    line-height: 20px;
+}
+.btn2:hover{
+    background-color: #2c23d2;
+    color: #ffffff;
+    cursor: pointer;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+
+
+/* navigation bar  */
+#navbar{
+    position: sticky;
+    display: flex;
+    align-items: center;
+    height: 60px;
+    top: 0px;
+    z-index: 100;
+}
+#navbar::before{
+    content: '';
+    background-color: #fff;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    opacity: 0.9;
+}
+
+
+/* navigation bar :logo */
+#logo{
+    display: flex;
+    position: absolute;
+    margin:12px 56px;
+}
+#logo img{
+    width: 56px;
+    border-radius: 5px;
+    margin-right: 10px;
+}
+@import url('https://fonts.googleapis.com/css2?family=Macondo&display=swap');
+#logo h3{
+    line-height: 50px;
+
+}
+#logo h3 span{
+    font-family: 'Macondo', cursive;
+}
+
+/* navigation bar : list styling */
+#navbar ul{
+    position: absolute;
+    left: 240px;
+    display:flex;
+}
+#navbar ul li{
+    list-style: none;
+}
+#navbar ul li a{
+    display: block;
+    text-decoration: none;
+    font-family: Arial,sans-serif;
+    font-size: 18px;
+    line-height: 18px;
+    color: #333;
+    padding: 3px 12px;
+}
+#navbar ul li a:hover{
+    color: #3434ff;
+}
+.login_btn {
+    width: 230px;
+    font-family:'Plus Jakarta Sans', sans-serif;
+    left: 1148px;
+    top: 0px;
+    border-radius: 4px;
+    position: absolute;
+    font-size: 18px;
+    border:none;
+    text-decoration: none;
+    text-align: center;
+    
+}
+.login_btn_style {
+    color: #2c23d2;
+    text-decoration: none;
+    padding: 8px 10px;
+    border-radius: 5px;
+    left: -8px;
+    position: absolute;
+    top: 12px;
+}
+.login_btn :hover {
+    color:white;
+    text-decoration: none;
+    background-color: #2c23d2;
+    cursor: pointer;
+}
+
+.login_btn1_style {
+    color: #2c23d2;
+    text-decoration: none;
+    padding: 8px 12px;
+    border-radius: 5px;
+    left: 70px;
+    position: absolute;
+    top: 12px;
+    border:none;
+    background: none;
+    font-size: 18px;
+    font-weight: 700;
+    font-family:'Plus Jakarta Sans', sans-serif;
+}
+.login_btn1 :hover {
+    color:white;
+    text-decoration: none;
+    background-color: #2c23d2;
+    cursor: pointer;
+}
+
+/* ---------------------------------Course Description------------------------------------------ */
+
+
+.description{
+    position: relative;
+    margin:0px 99.6px;
+    padding: 0px 24px 100px 0px;
+    width: 1200px; ;
+}
+#desc_content{
+    position: absolute;
+    width:690px;
+    height: 2105px;
+    background-color: white;
+}
+#right_block{
+    position: relative;
+    height: 2105px;
+    width:440px;
+    left: 740px;
+    margin-right: 99.6px;
+    padding-right: 24px;
+}
+
+/*##################TITLE DESCRIPTION ####################*/
+
+.title_desc_content{
+    position: relative;
+    width: 547px;
+    height: 470px;
+    top: 50px;
+    background-color: rgb(255, 255, 255);
+}
+
+/*----------------top title----------- */
+.top_title{
+    position: absolute;
+    width: 547px;
+    height: 103px;
+    top:8px;
+    margin-bottom: 18px;
+    background-color: rgb(255, 255, 255);
+}
+.top_title p{
+    color: #0b0b2c;
+    line-height: 1.136em;
+    font-weight: 300;
+    font-size: 44px;
+}
+
+/*----------------top paragraph----------- */
+.top_paragraph{
+    position: absolute;
+    width: 547px;
+    height: 60px;
+    top:138px;
+    margin-bottom: 30px;
+}
+.top_paragraph p{
+    color: #69697b;
+    font-size: 18px;
+    font-family: 'Jakarta Display', sans-serif;
+    line-height: 1.667em;
+    font-weight: 400;
+}
+
+/*----------------top feature----------- */
+.top_feature{
+    position: absolute;
+    width: 454px;
+    height: 60px;
+    margin-bottom: 50px;
+    top:244px;
+}
+.feature_relative, .b_relative, .instructor_relative,
+.instructor_detail_relative{
+    position: relative;
+}
+.b1, .b2, .b3, .b4{
+    width:219px;
+    height: 22px;
+    position: absolute;
+}
+.b1 {
+    top:0px;
+    left:0px;
+}
+.b1 .b_icon{
+    background: url(../images/description_page/icons/desc_content_icon1.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 22px;
+}
+.b2{
+    bottom:0px;
+    left:0px;
+}
+.b2 .b_icon{
+    background: url(../images/description_page/icons/icon2.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 26px;
+}
+.b3{
+    top:0px;
+    right:0px;
+}
+.b3 .b_icon{
+    background: url(../images/description_page/icons/icon3.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 26px;
+}
+.b4{
+    bottom:0px;
+    right:0px;
+}
+.b4 .b_icon{
+    background: url(../images/description_page/icons/icon4.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 26px;
+}
+.b_content{
+    position: absolute;
+    right: 0px;
+    width:181px;
+    height: 18px;
+    background-color: #ffffff;
+    font-size: 16px;
+    font-family: 'Jakarta Display', sans-serif;
+    line-height: 1.125em;
+    color: #69697b;
+}
+.b_icon{
+    position: absolute;
+    left: 0px;
+    width: 26px;
+    margin-right: 12px;
+    background-color: rgb(95, 92, 92);
+}
+
+/*----------------instructor----------- */
+.instructor{
+    position: absolute;
+    width: 254px;
+    height: 80px;
+    bottom: 0px;
+}
+.instructor_img{
+    position: absolute;
+    width:80px;
+    height: 80px;
+    margin-right: 24px;
+    left:0%;
+    border-radius: 50%;
+    background: url(../images/description_page/instructor_img/instructor2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.instructor_detail{
+    position: absolute;
+    right: 0%;
+    width:151px;
+    height: 80px;
+}
+.instructor_name{
+    position: absolute;
+    margin-top: 12px;
+    top:0px;
+    width:151px;
+    height: 26px;
+    font-size: 22px;
+    font-weight: 500;
+    line-height: 1.182em;
+    color: #0b0b2c;
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    background-color: #fff;
+}
+.instructor_field{
+    position: absolute;
+    margin-bottom: 9px;
+    bottom: 0px;
+    width:151px;
+    height: 28px;
+    font-size: 16px;
+    color: blue;
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    background-color: #fff;
+}
+.space{
+    position: absolute;
+    width:690px;
+    height: 151px;
+    top:520px;
+}
+.rev{
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
+
+/* ########################## DESCRIPTION BLOCK ########################## */
+.desc_block{
+    right:6%;
+    position: sticky;
+    top: 65px;
+    width:320px;
+    border-radius: 24px;
+    height: 500px;
+    margin:0px 20px;
+    padding:25px;
+    box-shadow: 0 20px 34px 0 rgb(11 11 44 / 41%),
+                0 4px 8px 0 rgb(11 11 44 / 2%),
+                0 10px 34px 0 rgb(52 52 255 / 5%);
+}
+.desc_block_relative, .desc_block_content_relative,.list_relative, .price_relative{
+    position: relative;
+}
+
+/* ----------------------video block------------------------- */
+.desc_block_video{
+    position: absolute;
+    width: 310px;
+    height: 172px;
+    border-radius: 20px;
+    top: 15px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+/* ----------------------content block------------------------- */
+.desc_block_content{
+    position: absolute;
+    width: 310px;
+    height: 400px;
+    top: 215px;
+}
+.price{
+    position: absolute;
+    top: 0%;
+    width:350px;
+    height: 32px;
+
+}
+.new_price{
+    position: absolute;
+    width: 180px;
+    height: 32px;
+    font-family: 'Jakarta Display', sans-serif;
+    color: #0b0b2c;
+    font-size: 28px;
+    line-height: 1.161em;
+    font-weight: 500;
+    letter-spacing: 0.01em;
+}
+.old_price{
+    right:30px;
+    position: absolute;
+    padding-top: 8px;
+    width: 140px;
+    height: 25px;
+    font-family: 'Jakarta Display', sans-serif;
+    color: #0b0b2c;
+    text-decoration: line-through;
+    font-size: 18px;
+    line-height: 1.161em;
+    font-weight: 300;
+    letter-spacing: 0.01em;
+}
+.cart_btn{
+    position: absolute;
+    cursor: pointer;
+    top: 45px;
+    width: 290px;
+    border-radius: 8px;
+    height: 29px;
+    font-size: 22px;
+    font-family: arial;
+    font-weight: 500;
+    text-align: center;
+    margin-bottom: 25px;
+    line-height: 0px;
+    padding: 34px 32px;
+    background-color: #3434ff;
+    color: white;
+}
+.list1{
+    top:135px;
+    position: absolute;
+    width:350px;
+    height: 36px;
+    margin-bottom: 25px;
+
+}
+.list2{
+    top:180px;
+    position: absolute;
+    width:350px;
+    height: 36px;
+    margin-bottom: 25px;
+
+}
+.list3{
+    top:225px;
+    position: absolute;
+    width:350px;
+    height: 36px;
+    margin-bottom: 25px;
+
+}
+.list4{
+    top:270px;
+    position: absolute;
+    width:350px;
+    height: 36px;
+    margin-bottom: 25px;
+}
+.list_icon{
+    position: absolute;
+    left:0%;
+    width:36px;
+    height: 36px;
+    margin-right: 18px;
+}
+.list_heading{
+    font-family: 'Jakarta Display', sans-serif;
+    color: #69697b;
+    font-size: 18px;
+    position: absolute;
+    left: 40px;
+    height: 36px;
+    padding: 8px 0px 6px 0px;
+    
+}
+.list_value{
+    position: absolute;
+    font-family: 'Jakarta Display', sans-serif;
+    height: 36px;
+    font-size: 18px;
+    padding: 8px 0px 6px 9px;
+    color:#0b0b2c;
+}
+.list_icon img{
+    position: absolute;
+    top: 5px;
+    width: 25px;
+}
+.list1 .list_heading{
+    width:48px;
+}
+.list2 .list_heading{
+    width:73px;
+}
+.list3 .list_heading{
+    width:119px;
+}
+.list1 .list_value{
+    left: 86px;
+    width:248px;
+}
+.list2 .list_value{
+    left:110px;
+    width:223px;
+}
+.list3 .list_value{
+    left:155px;
+    width:177px;
+}
+.list4 .list_value{
+    left:41px;
+    width:296px;
+    padding-left: 0px;
+}
+
+/* ########################## THREE TABS ########################## */
+.desc_down{
+    position: relative;
+    top:151px;
+    width: 690px;
+    height: 1159px;
+}
+.three_tab{
+    position: relative;
+    width: 591px;
+    height: 64px;
+    top:0px;
+    padding: 0px 50px;
+    border:none;
+    background:transparent;
+
+}
+.about_the_course{
+    position: absolute;
+    width: 224px;
+    height: 63px;
+    border: none;
+    background-color: white;
+    left:61px;
+    text-align: center;
+
+}
+.course_content{
+    position: absolute;
+    width: 208px;
+    height: 63px;
+    left:285px;
+    border: none;
+    background-color: white;
+
+
+}
+.reviews{
+    position: absolute;
+    width: 137px;
+    height: 63px;
+    right:61px;
+    border: none;
+    background-color: white;
+    
+
+}
+#div{
+    display: flex;
+    width: 570px;
+    margin-left: 70px;
+    margin-bottom: 20px;
+    height: 3px;
+    position: relative;
+}
+#bottom1,#bottom2,#bottom3{
+    background-color: #2c23d2;
+    position: absolute;
+    height: 3px;
+}
+#bottom1{
+    display: block;
+    width:220px;
+}
+#bottom2{
+    display: none;
+    left:220px;
+    width:200px;
+}
+#bottom3{
+    display: none;
+    left: 420px;
+    width: 150px;
+}
+
+.reviews p, .about_the_course p, .course_content p{
+    padding: 12px;
+    font-size: 20px;
+    font-family: "jakarta Display",sans-serif;
+}
+.reviews p:hover, .about_the_course p:hover, .course_content p:hover{
+    color: #3434ff;
+}
+
+.heading_1{
+    position: absolute;
+    width: 690px;
+    height: 48px;
+    margin-bottom: 22px;
+    
+}
+
+
+
+
+
+#about_course{
+    position: relative;
+    display: block;
+    height: 1346px;
+}
+#course_content_block{
+    position: relative;
+    height: 1346px;
+    display: none;
+}
+#content_heading{
+    width: 648px;
+    height: 48px;
+    font-size: 40px;
+    margin-bottom: 34px;
+    color: #0b0b2c;
+    font-family: "Jakarta Display",sans-serif;
+}
+.ul_content{
+    width: 293px;
+    height: 264px;
+    padding-left: 20px;
+}
+.li_item{
+    width: 293px;
+    height: 30px;
+    margin-bottom: 14px;
+    color: #69697b;
+    
+}
+.li_item p{
+    font-size: 18px;
+    font-family: "Jakarta Display",sans-serif;
+}
+.li_item::marker{
+    color: #2c23d2;
+}
+.ul_content_right{
+    width: 293px;
+    height: 264px;
+    position: absolute;
+    right:0%;
+    top:83px;
+    padding-left: 20px;
+}
+
+
+
+
+
+
+
+
+#review_block{
+    position: relative;
+    height: 1346px;
+    display: none;
+}
+#review_block p{
+    margin-bottom: 10px;
+    font-size: 18px;
+    color: #69697b;
+    font-family: "Jakarta Display",sans-serif;
+}
+.person_name{
+    font-family: "Jakarta Display",sans-serif;
+    font-size: 23px;
+    color: #0b0b2c;
+}
+#review_block img{
+    margin-bottom: 20px;
+}
+
+.heading_1 p{
+    font-size: 40px;
+    font-family: "Jakarta Display",sans-serif;
+    font-weight: 550;
+    color: #0b0b2c;
+}
+.para_1{
+    position: absolute;
+    width: 690px;
+    height: 60px;
+    top:110px;
+    margin-bottom: 30px;
+}
+.para_1 p, .para_2 p{
+    color: #69697b;
+    font-size: 18px;
+    font-family: "Jakarta Display",sans-serif;
+}
+.para_2{
+    position: absolute;
+    width: 690px;
+    height: 90px;
+    top:200px;
+    margin-bottom: 40px;
+}
+.course_img{
+    position: absolute;
+    width: 690px;
+    height: 469px;
+    border-radius: 24px;
+    top:330px;
+    background: url(../images/description_page/more_img/course_img.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.course_outcome{
+    position: absolute;
+    width: 690px;
+    height: 34px;
+    top:829px;
+    margin-bottom: 18px;
+}
+.course_outcome p{
+    font-size: 25px;
+    font-family: "Jakarta Display",sans-serif;
+    font-weight: 600;
+    color: #0b0b2c;
+    padding-left: 20px;
+}
+.outcome_list{
+    position: absolute;
+    width: 690px;
+    height: 176px;
+    top:890px;
+    margin-bottom: 25px;
+    padding-left: 40px;
+}
+.l1{
+    width: 650px;
+    height: 30px;
+    margin-bottom: 14px;
+    right: 0%;
+}
+.para_3{
+    position: absolute;
+    width: 690px;
+    height: 180px;
+    top: 1091px;
+    margin-bottom: 30px;
+}
+.para_3 p{
+    font-family: "Jakarta Display",sans-serif;
+    font-size: 18px;
+    color:#69697b;
+}
+
+
+
+
+
+
+
+/* ############################################################################################################## */
+
+#course{
+    top: 80px;
+    position: relative;
+    left: 110px;
+    width: 60rem;
+    height: 9rem;
+}
+.btn4{
+    position: absolute;
+    right: 10rem;
+    top: 9px;
+    border-color:#3434ff;
+    color: #3434ff;
+    border-radius: 4px;
+    border-width: 1px;
+    padding: 21px 32px;
+    font-size: 18px;
+    line-height: 15px;
+}
+.btn4:hover{
+    background-color: #2c23d2;
+    color: #ffffff;
+    cursor: pointer;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+
+
+
+
+/* ----------------------------------------------------------------------- */
+
+
+
+
+#course_content{
+    position: relative;
+    top: 100px;
+    left: 80px;
+    width: 75em;
+    height: 44em;
+}
+.first,.second,.third{
+    position: absolute;
+    width: 23em;
+    height: 33em;
+    border-radius: 20px;
+
+    transform-style: preserve-3d;
+    border-radius: 32px;
+    box-shadow:
+      1px 1px 0 1px #f9f9fb,
+      -1px 0 28px 0 rgba(34, 33, 81, 0.01),
+      28px 28px 28px 0 rgba(34, 33, 81, 0.25);
+    transition:
+      .3s ease-in-out transform,
+      .3s ease-in-out box-shadow;
+}
+.second{
+    left: 26em;
+}
+.third{
+    left: 52em;
+}
+.first:hover,.second:hover,.third:hover{
+    cursor: pointer;
+
+    transform:
+    translate3d(0px, -16px, 0px);
+  box-shadow:
+    1px 1px 0 1px #f9f9fb,
+    -1px 0 28px 0 rgba(34, 33, 81, 0.01),
+    54px 54px 28px -10px rgba(34, 33, 81, 0.15);
+}
+
+.course_image{
+    width: 368px;
+    border-radius: 20px;
+}
+#course_content h3{
+    padding-left: 20px;
+    padding-top: 23px;
+}
+#course_content p{
+    padding-top: 10px;
+    padding-left: 20px;
+    padding-bottom: 40px;
+}
+.level{
+    margin-left: 20px;
+    width: 20px;
+}
+.btnx{
+    margin-left: 10px;
+    margin-top: 20px;
+    background-color: #fff;
+    border: none;
+    line-height: 45px;
+    font-size: 25px;
+}
+.btny{
+    margin-left: 100px;
+    top: 20px;
+    background-color: #fff;
+    border: none;
+    line-height: 45px;
+    font-size: 25px;
+}
+
+
+/* ------------------------------------------------------------------------------------------- */
+
+#footer{
+    padding: 90px 0px 32px;
+    position: relative;
+    width: 84.3em;
+}
+.footer_child{
+    margin:0px 99.6px ;
+    padding: 0px 24px 110px 24px;
+    height: 300px;
+    position: relative;
+}
+.footer_left{
+    left: 24px;
+    width: 200px;
+    height:350px;
+    position: absolute;
+}
+.footer_middle{
+    position: absolute;
+    width: 500px;
+    height:350px;
+    left: 360px;
+    right: 394px;
+}
+.footer_right{
+    position: absolute;
+    width: 200px;
+    height:350px;
+    right:24px;
+    top: 0px;
+}
+
+/*----------footer_logo----------- */
+
+#footer_logo{
+    left:0px;
+    margin:12px ;
+}
+#footer_logo img{
+    width: 148px;
+}
+
+
+/*-------- footer_social_links------- */
+.footer_social_links{
+    width: 200px;
+    height: 40px;
+    position: relative;
+    margin-top: 20px;
+}
+.facebook{
+    position: absolute;
+    border-radius: 50%;
+    left:0px;
+    width: 32px;
+    height: 32px;
+
+}
+.instagram{
+    position: absolute;
+    border-radius: 50%;
+    left:54px;
+    width: 32px;
+    height: 32px;
+}
+.twitter{
+    right:54px;
+    position: absolute;
+    border-radius: 50%;
+    width: 32px;
+    height: 32px;
+}
+.linkedin{
+    position: absolute;
+    border-radius: 50%;
+    right:0px;
+    width: 32px;
+    height: 32px;
+}
+.facebook:hover , .instagram:hover , .twitter:hover , .linkedin:hover{
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.footer_title ,.footer_right_title{
+    color: #3434ff;
+    font-family: 'Jakarta Display', sans-serif;
+    margin-bottom: 28px;
+    font-size: 18px;
+}
+.futr_mid{
+    position: relative;
+}
+.footer_middle_1{
+    width:150px;
+    position: absolute;
+    left:0px;
+    height:297px;
+    background-color: white;
+}
+.footer_middle_2{
+    width:150px;
+    position: absolute;
+    left:175px;
+    height:297px;
+    background-color: white;
+    top: -53px;
+
+}
+.footer_middle_3{
+    width: 150px;
+    right: -18px;
+    position: absolute;
+    height: 297px;
+    background-color: white;
+    top: -53px;
+}
+.futr_right{
+    position: relative;
+    width: 200px;
+    height:297px;
+}
+
+.elements{
+    margin-bottom: 16px;
+    font-family: 'Jakarta Display', sans-serif;
+    font-size: 18px;
+    color: #69697b;
+}
+.elements a{
+    text-decoration: none;
+    color: #69697b;
+}
+.elements a:hover{
+    color: #3434ff;
+}

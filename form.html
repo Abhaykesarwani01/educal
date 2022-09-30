@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rgistration form</title>
+    <link rel="stylesheet" href="Assets/css/form.css">
+</head>
+<body>
+    <div id="heading">
+        <h2>Course <span>Registration</span></h2>
+    </div>
+    <div id="container">
+        <form action="/payment_page" method="post">
+            <div id="section1">
+                <h3>Email</h3>
+                <input type="email" name="email" placeholder="Email" >
+            </div>
+            <div id="section2">
+                    
+    
+                    <h3>Student Name</h3>
+                    <input type="text" name="FirstName" placeholder="First Name" value="" required >
+                    
+                    <input type="text" name="MiddleName" placeholder="Middle Name" value="" >
+            
+                    <input type="text" name="LastName" placeholder="Last Name" value="" required >
+            </div>
+            <div id="section3">               
+                    <h3>Birth Date</h3>
+                    <input type="date" name="dob" required>               
+            </div>
+            <div id="section4">               
+                    <h3>Gender</h3>
+
+                    <label for="male">Male :</label>
+                    <input type="radio" name="gender" value="male" id="male" required>
+
+                    <label for="female">Female :</label>
+                    <input type="radio" name="gender" value="female" id="female" required>   
+            </div>
+            <div id="section5">
+                <h3>Phone</h3>
+
+                <input type="phone" value="" name="phone" placeholder="phone no.">
+            </div>
+            <div id="section6">
+                <h3>Course</h3>
+                <select id="course" name="course">
+                    <option value="ANGULAR">ANGULAR</option>
+                    <option value="HTML">HTML</option>
+                    <option value="C">C</option>
+                    <option value="C++">C++</option>
+                    <option value="CSS">CSS</option>
+                    <option value="EXPRESS">EXPRESS</option>
+                    <option value="HOSTING">HOSTING</option>
+                    <option value="HTML">HTML</option>
+                    <option value="HTTP">HTTP</option>
+                    <option value="JAVA SCRIPT">JAVA SCRIPT</option>
+                    <option value="JAVA">JAVA</option>
+                    <option value="MONGO DB">MONGO DB</option>
+                    <option value="NODE JS">NODE JS</option>
+                    <option value="PYTHON">PYTHON</option>
+                    <option value="REACT">REACT</option>
+                    <option value="RUBY ON RAILS">RUBY ON RAILS</option>
+                    <option value="RUBY">RUBY</option>
+                    <option value="SPRING">SPRING</option>
+                    <option value="SWIFT">SWIFT</option>
+                  </select>
+                  
+                
+            </div>
+            <div id="section7">
+                <h3>Address</h3>
+
+                <input type="text" name="address" value="" class="address" placeholder="Address" required>
+                <br><br>
+                <input type="text" name="city" value="" placeholder="City" required>
+
+                <input type="number" name="pincode" value="" placeholder="Pincode" required>
+            </div>
+
+            <input type="submit" value="submit">
+
+        </form>
+    </div>
+</body>
+</html>
