@@ -259,7 +259,7 @@ p{
 
 .right_box{
     position: absolute;
-    right:24px;
+    left: 680px;
     top:30px;
     width: 365px;
     height: 475px;
